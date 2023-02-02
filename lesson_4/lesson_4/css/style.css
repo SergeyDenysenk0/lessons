@@ -1,0 +1,81 @@
+@import url("reset.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+ 
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-BoldItalic.woff2') format('woff2'),
+         url('CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src:url('CircularStd-MediumItalic.woff2') format('woff2'),
+        url('CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+ }
+ .header-text{
+    font-size: 10px;
+    line-height: 1.7;
+    text-shadow: none;
+    font-weight: 400;
+ }
+ .main-title {
+    font-family: 'Itim', cursive;
+    font-size: 35px;
+    text-shadow: 2px 2px 8px rgb(71, 230, 143);
+ }
+ .plot p {
+    font-family: 'Circular Std';
+    font-weight: 500;
+    font-style: italic;
+ }
+ .content-ref {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    text-shadow: -2px -2px 10px rgb(230, 114, 37);
+ }
+ div ol {
+    font-size: 12px;
+    text-shadow: 2px 2px 8px rgb(71, 230, 143);
+ }
+ .header-content,
+ .contents,
+ .title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px rgb(71, 182, 226);
+ }
+ .text {
+    text-indent: 25px;
+ }
+ div ul a {
+    text-decoration: line-through;
+    color: brown;
+ }
+ footer {
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
+ }
+ .content-center {
+    text-decoration: underline;
+ }
+ .crit>p {
+    font-family: 'Circular Std';
+    text-shadow: 5px 3px 4px rgb(43, 231, 68);
+
+ }
