@@ -1,0 +1,64 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+
+[class*="main__container"] {
+    max-width: 846px;
+    margin: 0 auto;
+    padding: 0 15px;
+	margin-bottom: 80px;
+  }
+  [class*="img__container"] {
+	max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
+	text-align: center;
+  }
+  .list {
+	font-family: 'Poppins';
+	font-style: normal;
+}
+h2 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 160%;
+	color: #212529;
+	padding-bottom: 40px;
+}
+p {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 179%;
+	color: #6C757D;
+	padding-bottom: 20px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+img {
+	font-size: 0;
+}
+.header {
+	margin-bottom: 115px;
+}
+.header img {
+	max-width: 100%;
+}
+
+.title {
+	max-width: 400px;
+}
+.title_2 {
+	max-width: 605px;
+}
+.main__text {
+	max-width: 816px;
+	margin-bottom: 80px;
+}
+.two_pictures {
+	margin-bottom: 80px;
+}
+.image_2 {
+	margin-right: 30px;
+}
+	
